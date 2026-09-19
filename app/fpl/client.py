@@ -14,7 +14,7 @@ class FPLClient:
         response.raise_for_status()
         return response.json()
 
-    def get_getbootstrap(self):
+    def get_bootstrap(self):
         return self.get("bootstrap-static/")
 
     def get_fixtures(self):
